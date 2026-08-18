@@ -1,0 +1,13 @@
+{
+  "name": "nm-jewellers",
+  "version": "1.0.0",
+  "description": "NM Jewellers – full-stack jewellery e-commerce site with Firebase backend and admin dashboard.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:rules": "firebase deploy --only firestore:rules"
+  },
+  "license": "UNLICENSED"
+}

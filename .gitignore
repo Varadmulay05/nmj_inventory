@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Firebase CLI local cache (safe to ignore, regenerated on `firebase deploy`)
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Dependencies (only relevant if you ever add a build step)
+node_modules/
